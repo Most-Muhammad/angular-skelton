@@ -1,6 +1,8 @@
 # Angular Skeleton
 
 This is the repository for skeleton for create new Angular project , to be cloned and start develop
+# Table of Contents
+[Project Structure] (##Project-Structure)
 
 ## Project Structure
 
