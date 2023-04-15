@@ -19,6 +19,7 @@ export abstract class AppBaseComponent implements OnDestroy {
   }
   constructor() {
     const injector = AppInjector.getInjector();
+    //TODO: Add dailog and snackBar to handle messages 
     //  this.snackBar = injector.get(MatSnackBar);
     // this.dialog = injector.get(MatDialog);
 

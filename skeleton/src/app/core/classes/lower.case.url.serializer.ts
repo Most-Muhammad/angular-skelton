@@ -1,7 +1,7 @@
 import { DefaultUrlSerializer } from '@angular/router';
 
 export class LowerCaseUrlSerializer extends DefaultUrlSerializer {
-    parse(url: string) {
+    override parse(url: string) {
         return super.parse(url.toLowerCase());
     }
 }
