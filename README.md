@@ -15,7 +15,7 @@ This is the repository for skeleton for create new Angular project , to be clone
 ├── src
 │ ├── app
 │ │ ├── core <!-- application core it hasn't module contents can be imported directly  -->
-│ │ │ ├── classes <!-- asd -->
+│ │ │ ├── classes <!-- application classes like baseComponent and appInjector -->
 │ │ │ ├── config <!-- includes application config like route names  or menu config etc -->
 │ │ │ ├── constants <!-- Keep all constants in a single place and avoid magic IDs/strings -->
 │ │ │ ├── dictionary <!-- includes any global dictionary for ex: global api routes authorizatoin, config and etc -->
