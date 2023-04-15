@@ -1,8 +1,13 @@
 # Angular Skeleton
 
 This is the repository for skeleton for create new Angular project , to be cloned and start develop
+
 # Table of Contents
-[Project Structure] (##Project-Structure)
+
+1. [Project Structure](#Project-Structure)
+2. [Key Features](#Key-Features)
+
+<a name="Project-Structure"/>
 
 ## Project Structure
 
@@ -22,9 +27,10 @@ This is the repository for skeleton for create new Angular project , to be clone
 ├── karma.conf.json //Testing config
 └── .gitignore
 ```
+<a name="Key-Features"/>
 
-<details> 
-<summary> Key Features</summary>
+## Key Features
+
 
 ### tsconfg.json
 
@@ -42,4 +48,3 @@ ex:
 import { AppInjector } from "@core/classes/app.injector";
 ```
 
-</details> 
