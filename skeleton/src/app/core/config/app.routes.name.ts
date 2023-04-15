@@ -1,45 +1,4 @@
 export const appRoutesNames = {
     auth: 'auth',
     error: 'error',
-    userManagement: 'user-management',
-    roles: 'roles-management',
-    roleDetail: 'role-detail',
-    users: 'create-users',
-    viewUsers: 'view-users',
-    productOutBox: 'outbox',
-    worflow: 'workflow',
-    REPORTS: 'reports',
-    viewWorkflow: 'view-workflow',
-    wfinbox: 'inbox',
-    wfRejectReasons: 'wf-reject-reasons',
-    accessDenied: 'access-denied',
-    /*start lookups*/
-    lookups: 'lookups',
-    countries: 'countries',
-    continent: 'continent',
-    langauges: 'language',
-    mainCategory: 'main-category',
-    mainCategorySynoynms: 'main-category-synoynms',
-    subCategorySynoynms: 'sub-category-synoynms',
-    resources: 'resources',
-    mainKeyword: 'main-keyword',
-    newsType: 'news-type',
-    newsCategory: 'news-classification',
-    newsNature: 'news-nature',
-    subKeyword: 'sub-keyword',
-    subCategory: 'sub-category',
-    /*end*/
-    /*start*/
-    insights: 'insight',
-    createNewCollection: 'create-new-collection',
-    collectionList: 'collection-list',
-    createNews: 'news-create',
-    viewNews: 'news-view',
-    collectionContents: 'collection-details-list',
-    inbox: 'inbox',
-    newsHistory: 'news-hisotry',
-
-    /*end */
-    insightsAnalysis: 'insight-analysis',
-    insightsGraph: 'insights-graph'
 };
