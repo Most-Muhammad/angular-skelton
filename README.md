@@ -22,3 +22,19 @@ This is the repository for skeleton for create new Angular project , to be clone
 ```
 
 ## Key Features
+
+### tsconfg.json
+
+```json
+"paths": {
+"@src/*" : ["src/*"],
+"@core/*":["src/app/core/*]
+}
+```
+
+paths is a config section to summarize and shortness the path of folder/s to be readable and maintainable for import, we can add more key @ following name  
+ex:
+
+```typescript
+import { AppInjector } from "@core/classes/app.injector";
+```
