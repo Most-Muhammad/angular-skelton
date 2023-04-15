@@ -14,9 +14,16 @@ This is the repository for skeleton for create new Angular project , to be clone
 ```markdown
 ├── src
 │ ├── app
-│ │ ├── core
+│ │ ├── core <!-- application core it hasn't module contents can be imported directly  -->
+│ │ │ ├── classes <!-- asd -->
+│ │ │ ├── config <!-- includes application config like route names  or menu config etc -->
+│ │ │ ├── constants <!-- Keep all constants in a single place and avoid magic IDs/strings -->
+│ │ │ ├── dictionary <!-- includes any global dictionary for ex: global api routes authorizatoin, config and etc -->
+│ │ │ ├── exceptions <!-- application exception handler -->
+│ │ │ ├── i18n <!-- translation service -->
+│ │ │ ├── types <!-- application type like guid and form-config  -->
 │ │ ├── shared
-│ │ ├── modules/sections based on project bussines and logic it may be containrez all modules or folder for each one nameing is perosnal preferences
+│ │ ├── modules/sections <!-- based on project bussines and logic it may be containrez all modules or folder for each one nameing is perosnal preferences -->
 │ ├── assets
 │ ├── environments
 ├── angular.json
@@ -24,7 +31,7 @@ This is the repository for skeleton for create new Angular project , to be clone
 ├── package-lock.json
 ├── tsconfig.json  
 ├── tsconfig.spec.json
-├── karma.conf.json //Testing config
+├── karma.conf.json <!-- Testing config -->
 └── .gitignore
 ```
 <a name="Key-Features"/>
