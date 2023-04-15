@@ -21,7 +21,8 @@ This is the repository for skeleton for create new Angular project , to be clone
 └── .gitignore
 ```
 
-## Key Features
+<details> 
+<summary> Key Features</summary>
 
 ### tsconfg.json
 
@@ -38,3 +39,5 @@ ex:
 ```typescript
 import { AppInjector } from "@core/classes/app.injector";
 ```
+
+</details> 
