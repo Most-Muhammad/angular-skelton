@@ -25,7 +25,7 @@ This is the repository for skeleton for create new Angular project , to be clone
 │ │ │ ├── types <!-- application type like guid and form-config  -->
 │ │ ├── shared
 │ │ ├── modules/sections <!-- based on project bussines and logic it may be containrez all modules or folder for each one nameing is perosnal preferences -->
-│ ├── assets <!-- asseet folder for static contents eg: images !>
+│ ├── assets <!-- asseet folder for static contents eg: images -->
 │ ├── environments
 ├── angular.json
 ├── package.json
