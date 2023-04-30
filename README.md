@@ -26,6 +26,7 @@ This is the repository for skeleton for create new Angular project , to be clone
 │ │ │ ├── i18n <!-- translation service -->
 │ │ │ ├── types <!-- application type like guid and form-config  -->
 │ │ ├── shared
+│ │ │ ├── services <!-- application shared services -->
 │ │ ├── modules/sections <!-- based on project bussines and logic it may be containrez all modules or folder for each one nameing is perosnal preferences -->
 │ ├── assets <!-- asseet folder for static contents eg: images -->
 │ ├── environments
