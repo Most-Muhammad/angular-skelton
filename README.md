@@ -7,7 +7,9 @@ This is the repository for skeleton for create new Angular project , to be clone
 
 1. [Project Structure](#Project-Structure)
 2. [Key Features](#Key-Features)
-3. [Authorization](#Authorization)
+3. [HTTP Client](#HTTP-Client )
+4. [Authorization](#Authorization)
+
 <a name="Project-Structure"/>
 
 ## Project Structure
@@ -76,4 +78,17 @@ This is the repository for skeleton for create new Angular project , to be clone
       2. Guid: guid type to generate GUID it may used in x-requestid
   </p></details>
 
+## HTTP Client 
+   1. Inject token in http header To avoid [HTTP Interceptors are anti-pattern](https://www.bennadel.com/blog/3589-http-interceptors-are-an-anti-pattern-that-create-           hidden-dependencies-and-unnecessary-complexity-in-angular.htm) .
+   2. Encapsulate CRUD operations and reutrn observable or alert error message returned from API.
+   3. convertToFormData function retuns FromData from Object it used for post/push.
+   ``` Ts
+    convertToFormData(
+        jsonObject: Object,
+        parentKey: string | null,
+        carryFormData: FormData | null
+    ): FormData 
+   ```
+   
 ## Authorization 
+
