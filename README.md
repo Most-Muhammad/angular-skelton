@@ -7,7 +7,7 @@ This is the repository for skeleton for create new Angular project , to be clone
 
 1. [Project Structure](#Project-Structure)
 2. [Key Features](#Key-Features)
-
+3. [Authorization](#Authorization)
 <a name="Project-Structure"/>
 
 ## Project Structure
@@ -76,4 +76,4 @@ This is the repository for skeleton for create new Angular project , to be clone
       2. Guid: guid type to generate GUID it may used in x-requestid
   </p></details>
 
-
+## Authorization 
